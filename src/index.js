@@ -12,6 +12,7 @@ app.use(express.json());
 
 // Routes
 // app.use("/api/users", usersRouter);
+app.use("/api/books", booksRouter);
 
 app.use(express.json());
 
